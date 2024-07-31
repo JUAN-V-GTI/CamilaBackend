@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class ProveedorRequestDTO {
+    private Integer id;
     private String name;
     private String firstname;
     private String lastname;

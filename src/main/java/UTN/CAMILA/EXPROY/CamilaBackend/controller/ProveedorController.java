@@ -1,5 +1,7 @@
 package UTN.CAMILA.EXPROY.CamilaBackend.controller;
 
+import java.util.List;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -54,5 +56,11 @@ public class ProveedorController {
     public ResponseEntity<Void> enableProveedor(@PathVariable Long id) {
         proveedorService.enableProveedor(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @GetMapping("/lista/all")
+    public ResponseEntity<List<ProveedorResponseDTO>> getAllProveedor(){
+        List<ProveedorResponseDTO> responseDTOs = proveedorService.getAllProveedor();
+        return new ResponseEntity<>(responseDTOs, HttpStatus.OK);
     }
 }

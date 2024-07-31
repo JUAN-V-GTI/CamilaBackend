@@ -10,44 +10,29 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-
-
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "\"usuarioCamila\"")
-public class User{
+@Table(name = "articulo")
+public class Articulo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String username;
+    private String producto;
 
+    private String talla;
 
-    private String firstname;
+    private String color;
 
- 
-    private String lastname;
+    private String modelo;
 
-    
-    private String sex;
+    private String precio;
 
+    private String genero;
 
-    private  String rfc;
-
-
-    private  String phoneNumber ;
-
-   
-    private String password;
-
-    private String Role;
-
-   
-
+    private Boolean enabled;
 
 }
-

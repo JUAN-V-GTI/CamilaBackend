@@ -1,6 +1,8 @@
 package UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl;
 
 import java.sql.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
@@ -61,4 +63,13 @@ public class ProveedorServiceImpl implements ProveedorService {
         proveedor.setEnabled(true);
         proveedorRepo.save(proveedor);
     }
+
+    @Override
+    public List<ProveedorResponseDTO> getAllProveedor() {
+        List<Proveedor> proveedores = proveedorRepo.findAll();
+        return proveedores.stream()
+                .map(p -> modelMapper.map(p, ProveedorResponseDTO.class))
+                .collect(Collectors.toList());
+    }
+    
 }
