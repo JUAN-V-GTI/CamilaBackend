@@ -3,7 +3,7 @@ import lombok.Data;
 
 @Data
 public class ClienteRequestDTO {
-    private Long id;
+    private Integer id;
     private String name;
     private String firstname;
     private String lastname;
