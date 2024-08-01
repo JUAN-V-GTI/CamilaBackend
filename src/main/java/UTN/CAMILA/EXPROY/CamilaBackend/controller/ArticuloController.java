@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,6 +18,7 @@ import UTN.CAMILA.EXPROY.CamilaBackend.dtos.ArticuloResponseDTO;
 import UTN.CAMILA.EXPROY.CamilaBackend.service.ArticuloService;
 
 @RestController
+@CrossOrigin(origins = "http://192.168.100.2:8083")
 @RequestMapping("/api/articulos")
 public class ArticuloController {
     

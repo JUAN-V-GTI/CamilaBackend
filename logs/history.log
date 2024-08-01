@@ -1032,3 +1032,226 @@ org.postgresql.util.PSQLException: ERROR: no existe la relación «articulo»
 [31/07/2024 05:55:21] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
 [31/07/2024 05:55:21] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 0 ms
 [31/07/2024 05:55:23] [org.springdoc.api.AbstractOpenApiResource] [INFO ] - Init duration for springdoc-openapi is: 1068 ms
+[31/07/2024 06:12:03] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - Starting CamilaBackendApplication using Java 17.0.11 with PID 18716 (C:\Users\Juan\OneDrive\Escritorio\CamilaBackend\target\classes started by Juan in C:\Users\Juan\OneDrive\Escritorio\CamilaBackend)
+[31/07/2024 06:12:03] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[31/07/2024 06:12:06] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[31/07/2024 06:12:06] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 243 ms. Found 3 JPA repository interfaces.
+[31/07/2024 06:12:08] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8083 (http)
+[31/07/2024 06:12:08] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[31/07/2024 06:12:08] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
+[31/07/2024 06:12:08] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[31/07/2024 06:12:08] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 4553 ms
+[31/07/2024 06:12:09] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[31/07/2024 06:12:09] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[31/07/2024 06:12:09] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
+[31/07/2024 06:12:10] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[31/07/2024 06:12:10] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[31/07/2024 06:12:10] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48cf8414
+[31/07/2024 06:12:10] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[31/07/2024 06:12:10] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[31/07/2024 06:12:12] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[31/07/2024 06:12:12] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[31/07/2024 06:12:13] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[31/07/2024 06:12:14] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8083 (http) with context path '/'
+[31/07/2024 06:12:14] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - Started CamilaBackendApplication in 11.89 seconds (process running for 12.476)
+[31/07/2024 07:49:27] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31/07/2024 07:49:27] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[31/07/2024 07:49:27] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 41 ms
+[31/07/2024 01:04:10] [com.zaxxer.hikari.pool.HikariPool] [WARN ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m23s489ms198µs800ns).
+[31/07/2024 01:54:18] [com.zaxxer.hikari.pool.HikariPool] [WARN ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m6s591ms959µs500ns).
+[31/07/2024 03:43:56] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - Starting CamilaBackendApplication using Java 17.0.11 with PID 13560 (C:\Users\Juan\OneDrive\Escritorio\CamilaBackend\target\classes started by Juan in C:\Users\Juan\OneDrive\Escritorio\CamilaBackend)
+[31/07/2024 03:43:56] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[31/07/2024 03:43:57] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[31/07/2024 03:43:57] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 137 ms. Found 3 JPA repository interfaces.
+[31/07/2024 03:43:58] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8083 (http)
+[31/07/2024 03:43:58] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[31/07/2024 03:43:58] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
+[31/07/2024 03:43:58] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[31/07/2024 03:43:58] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 2530 ms
+[31/07/2024 03:43:58] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[31/07/2024 03:43:59] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[31/07/2024 03:43:59] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
+[31/07/2024 03:43:59] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[31/07/2024 03:43:59] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[31/07/2024 03:44:00] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a1e912f
+[31/07/2024 03:44:00] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[31/07/2024 03:44:00] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[31/07/2024 03:44:02] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[31/07/2024 03:44:02] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[31/07/2024 03:44:03] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[31/07/2024 03:44:04] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN ] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[31/07/2024 03:44:04] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[31/07/2024 03:44:04] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[31/07/2024 03:44:04] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[31/07/2024 03:44:04] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[31/07/2024 03:44:05] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+[31/07/2024 04:13:08] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - Starting CamilaBackendApplication using Java 17.0.11 with PID 26904 (C:\Users\Juan\OneDrive\Escritorio\CamilaBackend\target\classes started by Juan in C:\Users\Juan\OneDrive\Escritorio\CamilaBackend)
+[31/07/2024 04:13:08] [UTN.CAMILA.EXPROY.CamilaBackend.CamilaBackendApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[31/07/2024 04:13:09] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[31/07/2024 04:13:09] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 110 ms. Found 3 JPA repository interfaces.
+[31/07/2024 04:13:11] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8083 (http)
+[31/07/2024 04:13:11] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[31/07/2024 04:13:11] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
+[31/07/2024 04:13:11] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[31/07/2024 04:13:11] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 3488 ms
+[31/07/2024 04:13:12] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[31/07/2024 04:13:12] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[31/07/2024 04:13:12] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
+[31/07/2024 04:13:13] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[31/07/2024 04:13:13] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[31/07/2024 04:13:14] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@131ba005
+[31/07/2024 04:13:14] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[31/07/2024 04:13:14] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[31/07/2024 04:13:16] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[31/07/2024 04:13:17] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[31/07/2024 04:13:18] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[31/07/2024 04:13:19] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN ] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[31/07/2024 04:13:19] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[31/07/2024 04:13:19] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[31/07/2024 04:13:20] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[31/07/2024 04:13:20] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[31/07/2024 04:13:20] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+[31/07/2024 04:15:40] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.persistence.EntityNotFoundException: Cliente no encontrado] with root cause
+jakarta.persistence.EntityNotFoundException: Cliente no encontrado
+	at UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl.ClienteServiceImpl.lambda$1(ClienteServiceImpl.java:45)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl.ClienteServiceImpl.getClienteById(ClienteServiceImpl.java:45)
+	at UTN.CAMILA.EXPROY.CamilaBackend.controller.ClienteController.getClienteById(ClienteController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[31/07/2024 04:29:50] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.persistence.EntityNotFoundException: Cliente no encontrado] with root cause
+jakarta.persistence.EntityNotFoundException: Cliente no encontrado
+	at UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl.ClienteServiceImpl.lambda$1(ClienteServiceImpl.java:45)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl.ClienteServiceImpl.getClienteById(ClienteServiceImpl.java:45)
+	at UTN.CAMILA.EXPROY.CamilaBackend.controller.ClienteController.getClienteById(ClienteController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[31/07/2024 04:53:03] [com.zaxxer.hikari.pool.HikariPool] [WARN ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s422ms655µs800ns).
+[31/07/2024 08:13:46] [com.zaxxer.hikari.pool.HikariPool] [WARN ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m10s121ms385µs).
