@@ -4,7 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.sql.Date;
+
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -40,11 +42,11 @@ public class Proveedor {
 
     private String empresa;
     
-    private Date creationDate;
+    private LocalDate creationDate;
 
     private Long createdBy;
 
-    private Date lastUpdateDate;
+    private LocalDate lastUpdateDate;
 
     private Long lastUpdatedBy;
 

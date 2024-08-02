@@ -14,7 +14,7 @@ public class ArticuloRequestDTO {
 
     private String modelo;
 
-    private String precio;
+    private Double precio;
 
     private String genero;
 

@@ -1,7 +1,8 @@
 package UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import java.sql.Date;
+
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,7 +25,7 @@ public class ClienteServiceImpl implements ClienteService {
     public ClienteResponseDTO createCliente(ClienteRequestDTO clienteRequestDTO) {
         Cliente cliente = modelMapper.map(clienteRequestDTO, Cliente.class);
         cliente.setEnabled(true); // Habilitar por defecto
-        cliente.setCreationDate(new Date(0));
+        cliente.setCreationDate(LocalDate.now());
         Cliente savedCliente = clienteRepo.save(cliente);
         return modelMapper.map(savedCliente, ClienteResponseDTO.class);
     }
@@ -34,7 +35,7 @@ public class ClienteServiceImpl implements ClienteService {
         Cliente existingCliente = clienteRepo.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Cliente no encontrado"));
         modelMapper.map(clienteRequestDTO, existingCliente);
-        existingCliente.setLastUpdateDate(new Date(id));
+        existingCliente.setLastUpdateDate(LocalDate.now());
         Cliente updatedCliente = clienteRepo.save(existingCliente);
         return modelMapper.map(updatedCliente, ClienteResponseDTO.class);
     }

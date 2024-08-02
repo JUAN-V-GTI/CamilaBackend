@@ -12,9 +12,10 @@ public interface ProveedorService {
 
     void disableProveedor(Long id);
 
+    void enableProveedor(Long id);
+
     ProveedorResponseDTO getProveedorById(Long id);
 
-    void enableProveedor(Long id);
 
     List<ProveedorResponseDTO> getAllProveedor();
 

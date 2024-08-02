@@ -1,6 +1,6 @@
 package UTN.CAMILA.EXPROY.CamilaBackend.serviceimpl;
 
-import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,7 +26,7 @@ public class ProveedorServiceImpl implements ProveedorService {
     public ProveedorResponseDTO createProveedor(ProveedorRequestDTO proveedorRequestDTO) {
         Proveedor proveedor = modelMapper.map(proveedorRequestDTO, Proveedor.class);
         proveedor.setEnabled(true); // Habilitar por defecto
-        proveedor.setCreationDate(new Date(0));
+        proveedor.setCreationDate(LocalDate.now());
         Proveedor savedProveedor = proveedorRepo.save(proveedor);
         return modelMapper.map(savedProveedor, ProveedorResponseDTO.class);
     }
@@ -36,7 +36,7 @@ public class ProveedorServiceImpl implements ProveedorService {
         Proveedor existingProveedor = proveedorRepo.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Proveedor no encontrado"));
         modelMapper.map(proveedorRequestDTO, existingProveedor);
-        existingProveedor.setLastUpdateDate(new Date(id));
+        existingProveedor.setLastUpdateDate(LocalDate.now());
         Proveedor updatedProveedor = proveedorRepo.save(existingProveedor);
         return modelMapper.map(updatedProveedor, ProveedorResponseDTO.class);
     }

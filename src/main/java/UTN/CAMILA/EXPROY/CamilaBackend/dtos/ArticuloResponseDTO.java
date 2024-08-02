@@ -14,7 +14,7 @@ public class ArticuloResponseDTO {
 
     private String modelo;
 
-    private String precio;
+    private Double precio;
 
     private String genero;
 

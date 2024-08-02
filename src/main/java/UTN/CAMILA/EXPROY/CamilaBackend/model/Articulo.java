@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -29,10 +32,20 @@ public class Articulo {
 
     private String modelo;
 
-    private String precio;
+    private Double precio;
 
     private String genero;
 
     private Boolean enabled;
+    
+    private LocalDate creationDate;
+
+    private Long createdBy;
+
+    private LocalDate lastUpdateDate;
+
+    private Long lastUpdatedBy;
+
+    private Long lastUpdateLogin;
 
 }
